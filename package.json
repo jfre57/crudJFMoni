@@ -18,8 +18,11 @@
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
+    "ng-particles": "^2.17.0",
     "rxjs": "~6.6.0",
+    "sweetalert2": "^11.1.5",
     "tslib": "^2.3.0",
+    "tsparticles": "^1.34.0",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {

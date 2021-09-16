@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+html,
+body {
+    height: 100%
+}
+
+
+body {
+    display: grid;
+    place-items: center;
+    font-family: 'Manrope', sans-serif;
+    background: #000;
+    color: #fff
+}
+
+.card-header{
+    display: flex;
+}
+
+.card-header h4{
+   margin: 10px;
+}
+
+.contact input {
+    margin-top: 10px;
+    background: #0097A7;
+    caret-color: #fff;
+    border: 1px solid #0097A7;
+}
+
+.contact input::placeholder {
+    color: #fff;
+    font-weight: 500
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2faa24;
+    border-color: #2faa24;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #2faa24;
+    box-shadow: 0 0 10px #008106, 0 0 5px #008106, 0 0 20px #008106;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: 0 0 0 0rem rgb(255, 255, 255)
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: navy;
+    border-color: navy;
+}
+
+/*------------------------*/
+
+.btn-light {
+    color: #fff;
+    background-color: darkred;
+    border-color: darkred;
+}
+
+.btn-light:hover {
+    color: #fff;
+    background-color:firebrick;
+    border-color: firebrick;
+    box-shadow: 0 0 10px firebrick, 0 0 5px firebrick, 0 0 20px firebrick;
+}
+
+.btn-light.focus,
+.btn-light:focus {
+    box-shadow: 0 0 0 0rem rgb(255, 255, 255)
+}
+
+.btn-light:not(:disabled):not(.disabled):active,
+.show>.btn-light.dropdown-toggle {
+    color: #fff;
+    background-color: #2faa24;
+    border-color: #2faa24
+}

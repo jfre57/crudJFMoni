@@ -1,0 +1,21 @@
+ng-particles {
+    position: absolute !important;
+    width: 100vw;
+    max-height: 100vh;
+    bottom: 0px;
+    z-index: -1;
+  }
+
+
+nav ul li a:hover {
+  border: solid;
+  border-bottom-color: rgb(59, 206, 33);
+  border-right-color: rgba(0, 0, 0, 0);
+  border-top-color: rgba(0, 0, 0, 0);
+  border-left-color: rgba(0, 0, 0, 0);
+}
+
+  .ha{
+    margin-right: 970px;
+    padding: 0;
+  }

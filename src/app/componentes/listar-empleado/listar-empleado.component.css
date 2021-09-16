@@ -1,0 +1,26 @@
+.gol h3{
+    text-align: center;
+    color:crimson;
+    margin-top: 5px;
+    margin-left: 170px;
+}
+
+
+table thead tr .cll{
+    color:greenyellow;
+}
+
+table{
+    margin-top: 20px;
+}
+
+.image{
+    margin-bottom: 10px;
+}
+
+.gol{
+    margin-top: 45px;
+    padding: 0;
+    float: left;
+    display: flex;
+}

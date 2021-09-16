@@ -1,0 +1,18 @@
+<div class="container d-flex justify-content-center">
+    <form ngNativeValidate class="contact px-5 py-5 w-100" [formGroup]="FormEmp" (ngSubmit)=enviarDatos()>
+        <div class="card-header"><h4 style="color: #51ff00; text-align: center;">Ingresa los Datos</h4></div>
+        <div class="row">
+            <div class="col-md-6"> <input required type="text" formControlName="nombre" type="text" class="form-control" placeholder="nombre" /> </div>
+            <div class="col-md-6"> <input required type="email" formControlName="correo" type="text" class="form-control" placeholder="correo" /> </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6"> <input required type="number" formControlName="telefono" type="text" class="form-control" placeholder="telefono" /> </div>
+            <div class="col-md-6"> <input required type="number" formControlName="edad" type="text" class="form-control" placeholder="edad" /> </div>
+        </div>
+        <div class="btn-group" role="group" aria-label="">
+         <div class="pull-left"> <button type="submit" class="btn btn-success mt-2 px-5"><i class="fas fa-user-check"></i> Modificar</button></div>
+        <div class="pull-left"> <button routerLink="/editar-empleado" class="btn btn-light mt-2 px-5"><i class="fas fa-undo-alt"></i> Cancelar</button></div>
+        </div>
+    </form>
+</div>
+

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+html,
+body {
+    height: 100%
+}
+
+
+body {
+    display: grid;
+    place-items: center;
+    font-family: 'Manrope', sans-serif;
+    background: #000;
+    color: #fff
+}
+
+.contact input {
+    margin-top: 10px;
+    background: #4b07e9;
+    caret-color: #fff;
+    border: 1px solid #4b07e9;
+    color: cornsilk;
+}
+
+.contact input::placeholder {
+    color: #fff;
+    font-weight: 500
+}
+
+.btn-success {
+    color: #fff;
+    background-color:teal;
+    border-color: teal;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #2faa24;
+    border-color: #2faa24;
+}
+
+.btn-success.focus,
+.btn-success:focus {
+    box-shadow: 0 0 0 0rem rgb(255, 255, 255)
+}
+
+.btn-success:not(:disabled):not(.disabled):active,
+.show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #008106;
+    border-color: #008106;
+}
+
+/*------------------------*/
+
+.btn-light {
+    color: #fff;
+    background-color: darkred;
+    border-color: darkred;
+}
+
+.btn-light:hover {
+    color: #fff;
+    background-color:gold;
+    border-color: gold;
+}
+
+.btn-light.focus,
+.btn-light:focus {
+    box-shadow: 0 0 0 0rem rgb(255, 255, 255)
+}
+
+.btn-light:not(:disabled):not(.disabled):active,
+.show>.btn-light.dropdown-toggle {
+    color: #fff;
+    background-color: #2faa24;
+    border-color: #2faa24
+}
